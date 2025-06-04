@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-environment:
+    environment:
       name: github-pages
       url: https://bridge2holistichealth.github.io/Fitness/
     permissions:
